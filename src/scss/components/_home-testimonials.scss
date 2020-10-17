@@ -1,3 +1,25 @@
 .testimonials {
-  background-color: $color-1;
+  background: url('../images/bg-shape-1.svg'), $color-1;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  div {
+    max-width: 870px;
+  }
+
+  .testimonials-text {
+    margin-bottom: 50px;
+
+    p {
+      color: $color-6;
+      font-size: rem(22);
+    }
+  }
+
+  .testimonial-credits {
+    text-align: center;
+  }
 }
