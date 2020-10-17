@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   max-width: $max-width;
   margin: 0 auto;
 }
@@ -9,12 +9,28 @@
 }
 
 // CSS Layout Grid to build the wrapper
-.grid-wrapper{
+.grid-wrapper {
   display: grid;
   grid-template-columns: auto minmax($min-width, $max-width) auto;
   grid-column-gap: 30px;
 }
 
-.grid-center{
+.grid-center {
   grid-column: 2/3;
+}
+
+// Tablet viewport
+@media screen and (min-width: $vw-medium) {
+  .wrap {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+// Desktop viewport
+@media screen and (min-width: $max-width + $min-width) {
+  .wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
