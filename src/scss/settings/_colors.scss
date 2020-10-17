@@ -1,15 +1,15 @@
 // Headings and text
-$color-title-light: $color-5;
-$color-title-dark: $color-1;
-$color-text-normal: $color-2;
+$color-title-light: #E5E7EF;
+$color-title-dark: #081420;
+$color-text-normal: #4A5B6D;
 
 // Backgrounds
-$color-bg-page: $color-6;
-$color-bg-light: $color-7;
-$color-bg-dark: $color-1;
+$color-bg-page: #F7F7FB;
+$color-bg-light: #FFFFFF;
+$color-bg-dark: #081420;
 
 // Links
-$color-link: $color-accent;
+$color-link: #A87450;
 $color-link-visited: $color-link;
 $color-link-active: lighten($color-link, 5%);
 $color-link-focus: $color-link;
