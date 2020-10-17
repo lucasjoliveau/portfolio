@@ -1,26 +1,28 @@
 // Headings and text
-$color-title-light: #FF2753;
-$color-title-dark: #000;
-$color-text-normal: #000;
+$color-title-light: $color-5;
+$color-title-dark: $color-1;
+$color-text-normal: $color-2;
 
 // Backgrounds
-$color-bg-page: #f9f9f9;
-$color-bg-light: #fff;
-$color-bg-dark: #000;
+$color-bg-page: $color-6;
+$color-bg-light: $color-7;
+$color-bg-dark: $color-1;
 
 // Links
-$color-link: #005eff;
+$color-link: $color-accent;
 $color-link-visited: $color-link;
-$color-link-active: lighten($color-link, 15%);
+$color-link-active: lighten($color-link, 5%);
 $color-link-focus: $color-link;
 
 // Color palette
-$color-accent: #FF2753;
-$color-1: #132343;
-$color-2: #4A566F;
-$color-3: #6F788C;
-$color-4: #7F8798;
-$color-5: #DBDEE2;
+$color-accent: #A87450;
+$color-1: #081420;
+$color-2: #4A5B6D;
+$color-3: #A9AFC7;
+$color-4: #D3D7E7;
+$color-5: #E5E7EF;
+$color-6: #F7F7FB;
+$color-7: #FFFFFF;
 
 // Forms colors
 $base-input-placeholder-color: #999;
