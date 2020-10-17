@@ -23,3 +23,14 @@
     text-align: center;
   }
 }
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .testimonials {
+    background-size: inherit;
+
+    .testimonials-text {
+      text-align: center;
+    }
+  }
+}
