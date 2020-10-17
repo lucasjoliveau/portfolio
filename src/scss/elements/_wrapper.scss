@@ -1,0 +1,20 @@
+.wrapper{
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// CSS Layout Grid to build the wrapper
+.grid-wrapper{
+  display: grid;
+  grid-template-columns: auto minmax($min-width, $max-width) auto;
+  grid-column-gap: 30px;
+}
+
+.grid-center{
+  grid-column: 2/3;
+}

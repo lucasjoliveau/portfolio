@@ -1,0 +1,17 @@
+a{
+  transition: $global-transition;
+
+  &:link{
+    color: $color-link;
+    text-decoration: none;
+  }
+
+  &:visited{
+    color: $color-link-visited;
+  }
+
+  &:hover{
+    color: $color-accent;
+    transition: $global-transition;
+  }
+}
