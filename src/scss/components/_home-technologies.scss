@@ -1,0 +1,21 @@
+.about-technologies {
+  margin: 65px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    margin: 30px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: initial;
+  }
+}
