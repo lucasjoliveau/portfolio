@@ -1,0 +1,101 @@
+.input-group {
+  width: 335px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+label {
+  position: absolute;
+  top: 30px;
+  cursor: text;
+  transition: .3s cubic-bezier(0.5, 0, 0.30, 1);
+  font-size: rem(14);
+}
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 97%;
+  height: 62px;
+  padding-top: 15px;
+  border: none;
+  border-radius: 0;
+  color: white;
+  font-size: rem(18);
+  background: transparent;
+  transition: .3s cubic-bezier(0.5, 0, 0.30, 1);
+}
+input[type="text"]:valid ~ label,
+input[type="email"]:valid ~ label {
+  top: 0;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
+}
+input[type="text"]:focus ~ label,
+input[type="email"]:focus ~ label {
+  top: 0;
+  color: $color-5;
+  font-size: rem(14);
+}
+input[type="text"]:focus ~ .input-bar:before,
+input[type="email"]:focus ~ .input-bar:before {
+  transform: translateX(0);
+}
+input[type="text"]:-webkit-autofill,
+input[type="email"]:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+
+.input-bar {
+  background: $color-2;
+  content: '';
+  width: 335px;
+  height: 2px;
+  transition: .3s cubic-bezier(0.5, 0, 0.30, 1);
+  position: relative;
+}
+
+.input-bar:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: $color-5;
+  transition: .3s cubic-bezier(0.5, 0, 0.30, 1);
+  transform: translateX(-100%);
+}
+
+input[type="submit"] {
+  margin-top: 100px;
+  z-index: 1;
+  cursor: pointer;
+  padding: 22px 63px;
+  width: 100%;
+  text-align: center;
+  color: $color-5;
+
+  &:hover {
+    background: $color-5;
+    color: $color-1;
+  }
+
+  &:active, &:focus {
+    background: darken($color-5, 5%);
+    outline: none;
+    color: $color-1;
+  }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .input-group {
+    width: 550px;
+  }
+
+  .input-bar {
+    width: 550px;
+  }
+}

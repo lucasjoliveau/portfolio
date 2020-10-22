@@ -1,39 +1,3 @@
-// All Form Elements
-label,
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: $base-input-color;
-  font: inherit;
-  margin: 0;
-  border-radius: 0;
-  transition: .3s all;
-}
-
-// Inputs
-[type="text"],
-[type="email"],
-[type="password"],
-[type="tel"],
-[type="number"],
-[type="date"],
-[type="search"] {
-  height: $base-input-height;
-  padding: 8px;
-  background-color: $base-input-background-color;
-  border: $base-input-border-size solid $base-input-border-color;
-  border-radius: $base-input-border-radius;
-  -webkit-appearance: none;
-  -moz-appearance: textfield;
-  &:focus {
-    background-color: $base-input-background-focus-color;
-    border-color: $base-input-border-focus-color;
-    outline: 0;
-  }
-}
-
 // Textarea
 textarea {
   padding: 8px;

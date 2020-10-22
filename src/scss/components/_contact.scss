@@ -1,0 +1,33 @@
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: $color-1;
+
+  p.subtitle {
+    margin-bottom: 50px;
+  }
+
+  .contact-accent {
+    color: $color-5;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: rem(43);
+    margin-bottom: 100px;
+  }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .contact {
+    h2 {
+      font-size: rem(86);
+    }
+  }
+}
