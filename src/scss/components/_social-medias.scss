@@ -3,6 +3,12 @@
   padding-left: 0;
   list-style: none;
   justify-content: space-between;
-  width: 200px;
+  width: 150px;
   align-items: baseline;
+
+  li {
+    a {
+      padding: 15px;
+    }
+  }
 }
