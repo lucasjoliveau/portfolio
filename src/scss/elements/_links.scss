@@ -30,7 +30,7 @@ a{
     left: 0;
     transform: scaleX(0);
     transform-origin: bottom right;
-    transition: transform 0.3s;
+    transition: transform 0.3s cubic-bezier( 0.645, 0.045, 0.355, 1 );
   }
 
   &:hover {
