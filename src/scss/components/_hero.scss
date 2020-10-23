@@ -1,14 +1,17 @@
 .hero {
   background: $color-1;
+  background-image: url("../images/bg-shape-3.svg");
+  background-blend-mode: color-dodge;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  h1, ul {
-    z-index: 200 !important;
-  }
+h1, ul {
+  z-index: 2;
+  position: relative;
+}
 
   h1 {
     font-size: 29px;
@@ -55,6 +58,55 @@
     to{
       transform:scaleY(0);
       transform-origin:50% 100%
+    }
+  }
+}
+
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.scroll {
+  width: 100%;
+  display: flex;
+  position: absolute;
+
+  p {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    margin: 0;
+    color: $color-2;
+    white-space: nowrap;
+    font-weight: $fw-bold;
+    font-size: rem(800);
+    animation: animate 20s linear infinite;
+
+    mix-blend-mode: overlay;
+    left: 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .hero {
+    h1 {
+      font-size: rem(70);
+      max-width: 830px;
     }
   }
 }
