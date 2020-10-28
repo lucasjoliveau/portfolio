@@ -3,7 +3,6 @@
 }
 
 .about {
-
   h2 {
     color: $color-1;
   }
@@ -15,4 +14,19 @@
     background: $color-3;
     height: 1px;
   }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+ .about {
+   .button-group {
+     display: flex;
+     max-width: 650px;
+     margin: auto;
+
+     .button {
+       width: 300px;
+     }
+   }
+ }
 }
