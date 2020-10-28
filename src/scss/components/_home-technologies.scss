@@ -19,3 +19,13 @@
     width: initial;
   }
 }
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .about-technologies {
+    width: 730px;
+    justify-content: space-between;
+    margin: 100px auto;
+  }
+
+}
