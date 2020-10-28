@@ -1,9 +1,10 @@
 .portrait-img {
-  padding: 50px;
+  margin: 50px auto;
+  max-width: 400px;
+  display: flex;
 }
 
 .about {
-
   h2 {
     color: $color-1;
   }
@@ -14,5 +15,70 @@
   hr {
     background: $color-3;
     height: 1px;
+  }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+ .about {
+   .button-group {
+     display: flex;
+     max-width: 650px;
+     margin: auto;
+
+     .button {
+       width: 300px;
+     }
+   }
+ }
+}
+
+// Desktop viewport 1024px
+@media screen and (min-width: $vw-medium) {
+  .about-title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about {
+    hr {
+      margin: 0;
+    }
+  }
+}
+// Desktop viewport 1024px
+@media screen and (min-width: $vw-medium) {
+  .about-group-1 {
+    display: flex;
+    margin: 50px 0;
+
+    .portrait-img {
+      margin: 0;
+      max-width: 300px;
+    }
+
+    .about-group-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30px;
+    }
+  }
+}
+
+// Desktop viewport 1248px
+@media screen and (min-width: $vw-huge) {
+  .about {
+    .portrait-img {
+      max-width: 100%;
+    }
+
+    .about-group-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 55px;
+    }
   }
 }
