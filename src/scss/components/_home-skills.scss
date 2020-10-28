@@ -1,3 +1,121 @@
 .skills {
   margin-top: 100px;
+  p {
+    max-width: 665px;
+  }
+}
+
+.skills-big-title {
+  font-size: rem(158);
+  font-weight: $fw-bold;
+  margin: 0;
+  white-space: nowrap;
+  margin-left: -20vw;
+}
+
+.main-skills {
+  margin-top: 80px;
+  background: $color-7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+#direction {
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.u-title-right {
+  margin: 0 -20vw 0 0;
+}
+
+.u-text-inline {
+  white-space: nowrap;
+}
+
+.skills-big-title-gradient {
+  color: transparent;
+
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+.skills-1 {
+  background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  -o-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+}
+
+.skills-2 {
+  background: linear-gradient(-90deg, #a85050, #e5e7ef, #e5e7ef);
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  -o-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+}
+
+.skills-3 {
+  background: linear-gradient(90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  -o-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
 }
