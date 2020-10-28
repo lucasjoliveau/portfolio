@@ -1,15 +1,16 @@
 .skills {
   margin-top: 100px;
+  p {
+    max-width: 665px;
+  }
 }
 
 .skills-big-title {
   font-size: rem(158);
   font-weight: $fw-bold;
-  color: $color-5;
   margin: 0;
   white-space: nowrap;
   margin-left: -20vw;
-
 }
 
 .main-skills {
