@@ -55,10 +55,21 @@
         </div>
     </section>
 
-    <!--&lt;!&ndash;CASE STUDIES SECTION&ndash;&gt;-->
-    <!--<section class="case-studies" data-scroll-section>-->
-
-    <!--</section>-->
+    <!--CASE STUDIES SECTION-->
+    <section class="case-studies" data-scroll-section>
+        <h2 class="wrapper wrap">Études de cas</h2>
+        <div class="case-study">
+            <div class=" case-study-title wrapper wrap">
+                <p class="subtitle">Design web</p>
+                <h3>Recettes en pot</h3>
+                <p>Étude académique</p>
+            </div>
+            <div class="img-container" data-scroll data-scroll-repeat="false">
+                <img src="images/case-studies/case-study-hero-recettes-en-pot.png"
+                     alt="Aperçu de l'étude de cas de Recettes en pot">
+            </div>
+        </div>
+    </section>
 
     <!--ABOUT SECTION-->
     <section class="about" data-scroll-section>
@@ -96,8 +107,10 @@
             </div>
             <hr data-scroll data-scroll-speed="0.7">
             <div class="about-group-1">
-                <img class="portrait-img" src="images/portrait-lucas-joliveau.png"
-                     alt="Photo portrait de Lucas Joliveau">
+                <div class="img-container" data-scroll data-scroll-repeat="false">
+                    <img class="portrait-img" src="images/portrait-lucas-joliveau.png"
+                         alt="Photo portrait de Lucas Joliveau">
+                </div>
                 <div class="about-group-text">
                     <div>
                         <p>Au cours de mes études en intégration multimédia, j’ai su adopter une vision artistique
@@ -183,22 +196,22 @@
 
         <div class="main-skills" id="direction">
             <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3"
-               data-scroll-target="#direction"
-               class="skills-1 skills-big-title u-text-inline skills-big-title-gradient">
+               data-scroll-target="#direction" data-scroll-offset="0, -45%" data-scroll-repeat="true"
+               class="skills-1 skills-big-title u-text-inline">
                 Design web & mobile</p>
             <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="3"
-               data-scroll-target="#direction"
-               class="skills-2 skills-big-title u-text-inline u-title-right skills-big-title-gradient">
+               data-scroll-target="#direction" data-scroll-offset="0, -45%" data-scroll-repeat="true"
+               class="skills-2 skills-big-title u-text-inline u-title-right">
                 Développement web</p>
             <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3"
-               data-scroll-target="#direction"
-               class="skills-3 skills-big-title u-text-inline skills-big-title-gradient">
+               data-scroll-target="#direction" data-scroll-offset="0, -45%" data-scroll-repeat="true"
+               class="skills-3 skills-big-title u-text-inline">
                 Identité visuelle</p>
         </div>
     </section>
 
     <!--TESTIMONIALS SECTION-->
-    <section class="testimonials">
+    <section class="testimonials" data-scroll-section>
         <div class="wrapper wrap">
             <div class="testimonials-text">
                 <p>
@@ -217,7 +230,7 @@
     </section>
 
     <!--CONTACT SECTION-->
-    <section class="contact">
+    <section class="contact" data-scroll-section>
         <div class="wrapper wrap">
             <h2>Je recherche un stage en <span class="contact-accent">design d'interfaces</span> et en <span
                     class="contact-accent">développement font-end</span>.</h2>
@@ -252,7 +265,7 @@
     </section>
 
     <!--FOOTER SECTION-->
-    <footer>
+    <footer data-scroll-section>
         <div class="wrap wrapper">
             <div class="footer-contact">
                 <span class="footer-contact-option"><p>Intéressé par mon profil?</p><a href="#"

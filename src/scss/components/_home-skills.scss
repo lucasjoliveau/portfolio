@@ -11,7 +11,24 @@
   margin: 0;
   white-space: nowrap;
   margin-left: -20vw;
+  transition: background, color 1s;
+  color: $color-5;
 }
+
+.main-skills {
+  p.is-inview {
+    background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    -o-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    transition: background, color 1s;
+    color: transparent;
+  }
+}
+
 
 .main-skills {
   margin-top: 80px;
@@ -35,11 +52,6 @@
 
 .u-text-inline {
   white-space: nowrap;
-}
-
-.skills-big-title-gradient {
-  color: transparent;
-
 }
 
 @-webkit-keyframes AnimationName {
@@ -90,32 +102,33 @@
   }
 }
 
-.skills-1 {
-  background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
-  -webkit-animation: AnimationName 14s ease infinite;
-  -moz-animation: AnimationName 14s ease infinite;
-  -o-animation: AnimationName 14s ease infinite;
-  animation: AnimationName 14s ease infinite;
-  background-size: 800% 800%;
-  -webkit-background-clip: text;
-}
+//.skills-1 {
+//  background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
+//  -webkit-animation: AnimationName 14s ease infinite;
+//  -moz-animation: AnimationName 14s ease infinite;
+//  -o-animation: AnimationName 14s ease infinite;
+//  animation: AnimationName 14s ease infinite;
+//  background-size: 800% 800%;
+//  -webkit-background-clip: text;
+//}
+//
+//.skills-2 {
+//  background: linear-gradient(-90deg, #a85050, #e5e7ef, #e5e7ef);
+//  -webkit-animation: AnimationName 14s ease infinite;
+//  -moz-animation: AnimationName 14s ease infinite;
+//  -o-animation: AnimationName 14s ease infinite;
+//  animation: AnimationName 14s ease infinite;
+//  background-size: 800% 800%;
+//  -webkit-background-clip: text;
+//}
+//
+//.skills-3 {
+//  background: linear-gradient(90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
+//  -webkit-animation: AnimationName 14s ease infinite;
+//  -moz-animation: AnimationName 14s ease infinite;
+//  -o-animation: AnimationName 14s ease infinite;
+//  animation: AnimationName 14s ease infinite;
+//  background-size: 800% 800%;
+//  -webkit-background-clip: text;
+//}
 
-.skills-2 {
-  background: linear-gradient(-90deg, #a85050, #e5e7ef, #e5e7ef);
-  -webkit-animation: AnimationName 14s ease infinite;
-  -moz-animation: AnimationName 14s ease infinite;
-  -o-animation: AnimationName 14s ease infinite;
-  animation: AnimationName 14s ease infinite;
-  background-size: 800% 800%;
-  -webkit-background-clip: text;
-}
-
-.skills-3 {
-  background: linear-gradient(90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
-  -webkit-animation: AnimationName 14s ease infinite;
-  -moz-animation: AnimationName 14s ease infinite;
-  -o-animation: AnimationName 14s ease infinite;
-  animation: AnimationName 14s ease infinite;
-  background-size: 800% 800%;
-  -webkit-background-clip: text;
-}

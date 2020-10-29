@@ -1,13 +1,11 @@
 .portrait-img {
   margin: 50px auto;
   max-width: 400px;
+  width: 100%;
   display: flex;
 }
 
 .about {
-  h2 {
-    color: $color-1;
-  }
   h3 {
     text-align: center;
   }
@@ -16,6 +14,10 @@
     background: $color-3;
     height: 1px;
   }
+}
+
+.about-group-text {
+  max-width: 700px;
 }
 
 // Tablet viewport 820px
@@ -53,10 +55,10 @@
     display: flex;
     margin: 50px 0;
 
-    .portrait-img {
-      margin: 0;
-      max-width: 300px;
-    }
+    //.portrait-img {
+    //  margin: 0;
+    //  max-width: 300px;
+    //}
 
     .about-group-text {
       display: flex;
@@ -70,9 +72,8 @@
 // Desktop viewport 1248px
 @media screen and (min-width: $vw-huge) {
   .about {
-    .portrait-img {
-      max-width: 100%;
-    }
+    //.portrait-img {
+    //}
 
     .about-group-text {
       display: flex;
