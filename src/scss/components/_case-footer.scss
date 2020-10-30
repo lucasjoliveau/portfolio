@@ -1,0 +1,20 @@
+.next-case {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  h2 {
+    color: $color-7;
+  }
+
+  .link-white {
+    color: $color-5;
+  }
+}
+
+.link:hover ~ #MDBank {
+  transform: scale(1.5);
+}
+
+#MDBank {
+  background: linear-gradient(0deg, rgba(8, 20, 32, 0.85), rgba(8, 20, 32, 0.85)), url("../images/case-studies/case-study-hero-recettes-en-pot.png");
+}
