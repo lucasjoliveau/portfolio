@@ -4,9 +4,9 @@
 
   li {
     border-radius: 3px;
+    width: 100%;
     padding: 20px;
     margin: 20px 0;
-    max-width: 335px;
 
     p {
       margin: 5px 0;
@@ -44,5 +44,27 @@
     p {
       color: #4C74A4;
     }
+  }
+}
+
+
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      margin: 10px;
+      max-width: 335px;
+    }
+  }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .color-palette {
+    justify-content: left;
   }
 }

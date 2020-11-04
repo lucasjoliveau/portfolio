@@ -1,20 +1,30 @@
 .case-hero {
-  height: 90vh;
-  display: flex;
-  align-items: flex-end;
-
   .wrapper {
-    margin-bottom: 50px;
+    height: 90vh;
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
 
     h1 {
       margin: 0;
       color: $color-1;
     }
+
+    .case-hero-title {
+      width: 100%;
+      margin-bottom: 50px;
+    }
   }
 }
 
 .case-hero-periskio {
-  background:  linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/case-study-hero-recettes-en-pot.png");
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/case-study-hero-recettes-en-pot.png");
+}
+
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .case-hero-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 }

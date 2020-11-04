@@ -1,5 +1,6 @@
 .case-text-1 {
-  margin-top: 100px;
+  margin: 100px auto;
+  max-width: 900px;
 
   .bold-text {
     font-weight: $fw-semibold;
@@ -8,6 +9,7 @@
 
   p {
     margin-bottom: 50px;
+    max-width: 550px;
   }
 
   hr {
@@ -18,6 +20,7 @@
 }
 
 .case-dark-bg {
+  max-width: unset;
   margin-top: 0;
   background: $color-1;
   padding-top: 70px;
@@ -32,22 +35,13 @@
   }
 }
 
-// Small viewport 640px
-@media screen and (min-width: $vw-small) {
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
   .case-text-1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 
-    .paragraph {
-      max-width: 400px;
-    }
-  }
-}
-
-// Tablet viewport 820px
-@media screen and (min-width: $vw-medium) {
-  .case-text-1 {
     .paragraph {
       max-width: 500px;
     }

@@ -4,3 +4,16 @@
     padding: 30px;
   }
 }
+
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .illustrations-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      width: 300px;
+    }
+  }
+}
