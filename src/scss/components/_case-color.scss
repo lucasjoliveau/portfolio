@@ -1,0 +1,45 @@
+.color-palette {
+  div {
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 335px;
+
+    p {
+      margin: 5px 0;
+      text-transform: uppercase;
+    }
+  }
+
+  .color-palette-periskio-1 {
+    background: #263A52;
+
+    p {
+      color: #6AA2C8;
+    }
+  }
+
+  .color-palette-periskio-2 {
+    background: #1560BD;
+
+    p {
+      color: #2AC0FF;
+    }
+  }
+
+  .color-palette-periskio-3 {
+    background: #FDC029;
+
+    p {
+      color: #FFFF73;
+    }
+  }
+
+  .color-palette-periskio-4 {
+    background: #E2EAF7;
+
+    p {
+      color: #4C74A4;
+    }
+  }
+}

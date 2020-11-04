@@ -1,0 +1,20 @@
+.case-hero {
+  height: 90vh;
+  display: flex;
+  align-items: flex-end;
+
+  .wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      margin: 0;
+      color: $color-1;
+    }
+  }
+}
+
+.case-hero-periskio {
+  background:  linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/case-study-hero-recettes-en-pot.png");
+}

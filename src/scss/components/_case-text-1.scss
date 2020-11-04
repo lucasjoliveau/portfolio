@@ -1,0 +1,64 @@
+.case-text-1 {
+  margin-top: 100px;
+
+  .bold-text {
+    font-weight: $fw-semibold;
+    font-size: rem(20);
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  hr {
+    background: $color-2 !important;
+    height: 1px;
+    margin: 0 0 35px;
+  }
+}
+
+.case-dark-bg {
+  margin-top: 0;
+  background: $color-1;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  .bold-text {
+    color: $color-7;
+  }
+
+  .paragraph {
+    color: $color-5;
+  }
+}
+
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .case-text-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    .paragraph {
+      max-width: 400px;
+    }
+  }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .case-text-1 {
+    .paragraph {
+      max-width: 500px;
+    }
+  }
+}
+
+// Desktop viewport 1024px
+@media screen and (min-width: $vw-large) {
+  .case-text-1 {
+    .paragraph {
+      max-width: 600px;
+    }
+  }
+}
