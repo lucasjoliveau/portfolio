@@ -28,7 +28,7 @@
 }
 
 // Desktop viewport
-@media screen and (min-width: $max-width + $min-width) {
+@media screen and (min-width: $vw-large) {
   .wrap {
     padding-left: 0;
     padding-right: 0;

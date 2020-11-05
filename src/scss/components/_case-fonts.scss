@@ -1,0 +1,30 @@
+.case-fonts {
+  margin-top: 50px;
+
+  hr {
+    background: $color-2;
+    height: 1px;
+    margin: 70px 0;
+  }
+
+  .case-font-group {
+    .case-font-font {
+      margin-bottom: 50px;
+      width: 200px;
+    }
+
+    img {
+      width: initial;
+      max-width: 100%;
+    }
+  }
+}
+
+// Small viewport 640px
+@media screen and (min-width: $vw-medium) {
+  .case-font-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

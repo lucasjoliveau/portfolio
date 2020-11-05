@@ -38,7 +38,36 @@
   }
 }
 
+.case-img-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
+  img {
+    width: fit-content;
+  }
+}
+
+.case-img-7 {
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+
+  img {
+    display: block;
+  }
+}
+
+.case-img-8 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    max-width: 1000px;
+    margin: 70px auto;
+  }
+}
 
 // Small viewport 640px
 @media screen and (min-width: $vw-small) {

@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     (function () {
         var scroll = new LocomotiveScroll({
             el: document.querySelector("[data-scroll-container]"),
-            smooth: true,
+            smooth: false,
             smoothMobile: false,
             // direction:"horizontal",
             // inertia:1,
             // repeat:true,
-            offset: ["10%", 100]
+            offset: [0, 0]
         });
     })();
 });

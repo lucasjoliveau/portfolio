@@ -12,10 +12,11 @@
   }
 }
 
-.link:hover ~ #MDBank {
-  transform: scale(1.5);
+.next-case-restaurant-palais-royal {
+  background: linear-gradient(0deg, rgba(8, 20, 32, 0.85), rgba(8, 20, 32, 0.85)), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero.jpg");
 }
 
-.next-case-mdbank {
-  background: linear-gradient(0deg, rgba(8, 20, 32, 0.85), rgba(8, 20, 32, 0.85)), url("../images/case-studies/case-study-hero-recettes-en-pot.png");
+.next-case-konvergo {
+  background: linear-gradient(0deg, rgba(8, 20, 32, 0.85), rgba(8, 20, 32, 0.85)), url("../images/case-studies/konvergo/case-study-konvergo-hero.jpg");
+  background-position: bottom;
 }

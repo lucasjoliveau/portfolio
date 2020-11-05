@@ -7,6 +7,7 @@
     width: 100%;
     padding: 20px;
     margin: 20px 0;
+    border: 1px solid;
 
     p {
       margin: 5px 0;
@@ -14,8 +15,10 @@
     }
   }
 
+  // Periskio
   .color-palette-periskio-1 {
     background: #263A52;
+    border-color: #6AA2C8;
 
     p {
       color: #6AA2C8;
@@ -24,6 +27,7 @@
 
   .color-palette-periskio-2 {
     background: #1560BD;
+    border-color: #2AC0FF;
 
     p {
       color: #2AC0FF;
@@ -32,6 +36,7 @@
 
   .color-palette-periskio-3 {
     background: #FDC029;
+    border-color: #FFFF73;
 
     p {
       color: #FFFF73;
@@ -40,9 +45,75 @@
 
   .color-palette-periskio-4 {
     background: #E2EAF7;
+    border-color: #4C74A4;
 
     p {
       color: #4C74A4;
+    }
+  }
+
+
+  // Restaurant du Palais Royal
+  .color-palette-restaurant-palais-royal-1 {
+    background: #000E05;
+    border-color: #BDC0BE;
+
+    p {
+      color: #BDC0BE;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-2 {
+    background: #002C0F;
+    border-color: #80AB8E;
+
+    p {
+      color: #80AB8E;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-3 {
+    background: #114222;
+    border-color: #90C2A1;
+
+    p {
+      color: #90C2A1;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-4 {
+    background: #415347;
+    border-color: #A7C1B0;
+
+    p {
+      color: #A7C1B0;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-5 {
+    background: #C79F6D;
+    border-color: #FFFFDA;
+
+    p {
+      color: #FFFFDA;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-6 {
+    background: #f5f5f5;
+    border-color: #AFAFAF;
+
+    p {
+      color: #AFAFAF;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-7 {
+    background: #ffffff;
+    border-color: #AFAFAF;
+
+    p {
+      color: #AFAFAF;
     }
   }
 }
@@ -59,12 +130,5 @@
       margin: 10px;
       max-width: 335px;
     }
-  }
-}
-
-// Tablet viewport 820px
-@media screen and (min-width: $vw-medium) {
-  .color-palette {
-    justify-content: left;
   }
 }
