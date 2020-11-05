@@ -24,6 +24,10 @@
   background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero.jpg") center no-repeat;
 }
 
+.case-hero-konvergo {
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/konvergo/case-study-konvergo-hero.jpg") center no-repeat;
+}
+
 // Small viewport 640px
 @media screen and (min-width: $vw-small) {
   .case-hero-title {

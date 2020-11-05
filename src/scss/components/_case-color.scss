@@ -1,6 +1,7 @@
 .color-palette {
   padding-left: unset;
   list-style: none;
+  margin-top: 50px;
 
   li {
     border-radius: 3px;
@@ -114,6 +115,79 @@
 
     p {
       color: #AFAFAF;
+    }
+  }
+
+  // Konvergo
+  .color-palette-konvergo-1 {
+    background: #1a62c6;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-konvergo-2 {
+    background: #ec0b43;
+    border-color: #FFB9DB;
+
+    p {
+      color: #FFB9DB;
+    }
+  }
+
+  .color-palette-konvergo-3 {
+    background: #f3be22;
+    border-color: #FFFFC7;
+
+    p {
+      color: #FFFFC7;
+    }
+  }
+
+  .color-palette-konvergo-4 {
+    background: #f8f8fa;
+    border-color: #919193;
+
+    p {
+      color: #919193;
+    }
+  }
+
+  .color-palette-konvergo-5 {
+    background: #242930;
+    border-color: #9197A0;
+
+    p {
+      color: #9197A0;
+    }
+  }
+
+  .color-palette-konvergo-6 {
+    background: #3a414e;
+    border-color: #74829C;
+
+    p {
+      color: #74829C;
+    }
+  }
+
+  .color-palette-konvergo-7 {
+    background: #5d6a7f;
+    border-color: #9EB4D8;
+
+    p {
+      color: #9EB4D8;
+    }
+  }
+
+  .color-palette-konvergo-8 {
+    background: #ecf0f6;
+    border-color: #A3B7D3;
+
+    p {
+      color: #A3B7D3;
     }
   }
 }
