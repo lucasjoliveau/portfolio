@@ -53,12 +53,16 @@
 @media screen and (min-width: $vw-medium) {
   .case-text-1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 
     .paragraph {
       max-width: 500px;
     }
+  }
+
+  .case-text-1:not(.case-dark-bg) {
+    max-width: 1050px;
   }
 }
 

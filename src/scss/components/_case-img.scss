@@ -69,6 +69,20 @@
   }
 }
 
+.konvergo-userflow {
+  margin: 80px auto;
+}
+
+.case-bg-image-konvergo {
+  background: linear-gradient(0deg, #F7F6FB 0%, rgba(247, 246, 251, 0) 25.23%), linear-gradient(180deg, #F7F6FB 0%, rgba(247, 246, 251, 0) 30.14%), url("../images/case-studies/konvergo/case-study-konvergo-guidelines.png");
+}
+
+.case-bg-image-fill {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
 // Small viewport 640px
 @media screen and (min-width: $vw-small) {
   .case-img-3 {
