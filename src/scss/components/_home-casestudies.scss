@@ -17,19 +17,7 @@
 
       .subtitle {
         margin: 0;
-        position: relative;
-        padding-left: 25px;
         max-width: 350px;
-
-        &::before {
-          content: '';
-          width: 17px;
-          height: 2px;
-          background: $color-2;
-          position: absolute;
-          left: 0;
-          top: 45%;
-        }
       }
 
       h3 {
@@ -62,10 +50,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    .img-container {
-      filter: drop-shadow(0px 0px 40px rgba(8, 20, 32, 0.2));
-    }
 
     img {
       max-width: 600px;
