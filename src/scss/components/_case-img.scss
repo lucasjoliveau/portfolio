@@ -1,0 +1,106 @@
+.case-img-1 {
+  background: $color-7;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: auto;
+  display: flex;
+
+  img {
+    max-width: 800px;
+  }
+}
+
+.case-img-2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.case-img-3 {
+  img {
+    margin: 20px 0;
+  }
+}
+
+.case-img-4 {
+  img {
+    margin-bottom: -6px;
+    border-radius: 0;
+  }
+}
+
+.case-img-5 {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    margin: 50px auto;
+    max-width: 700px;
+  }
+}
+
+.case-img-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  img {
+    width: fit-content;
+  }
+}
+
+.case-img-7 {
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+
+  img {
+    display: block;
+  }
+}
+
+.case-img-8 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    max-width: 1000px;
+    margin: 70px auto;
+  }
+}
+
+.konvergo-userflow {
+  margin: 80px auto;
+}
+
+.case-bg-image-konvergo {
+  background: linear-gradient(0deg, #F7F6FB 0%, rgba(247, 246, 251, 0) 25.23%), linear-gradient(180deg, #F7F6FB 0%, rgba(247, 246, 251, 0) 30.14%), url("../images/case-studies/konvergo/case-study-konvergo-guidelines.png");
+}
+
+.case-bg-image-fill {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .case-img-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 48%;
+    }
+  }
+
+  .case-img-4 {
+    width: 100%;
+    display: flex;
+
+    img {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.case-icons-list {
+  padding-left: unset;
+  list-style: none;
+
+  li {
+    max-width: 335px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+    img {
+      margin-right: 50px;
+      width: 70px;
+    }
+  }
+}
+
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .case-icons-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    li {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        margin: 0;
+      }
+
+      p {
+        max-width: 200px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .case-icons-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,290 @@
+.color-palette {
+  padding-left: unset;
+  list-style: none;
+  margin-top: 50px;
+
+  li {
+    border-radius: 3px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid;
+
+    p {
+      margin: 5px 0;
+      text-transform: uppercase;
+    }
+  }
+
+  // Periskio
+  .color-palette-periskio-1 {
+    background: #263A52;
+    border-color: #6AA2C8;
+
+    p {
+      color: #6AA2C8;
+    }
+  }
+
+  .color-palette-periskio-2 {
+    background: #1560BD;
+    border-color: #2AC0FF;
+
+    p {
+      color: #2AC0FF;
+    }
+  }
+
+  .color-palette-periskio-3 {
+    background: #FDC029;
+    border-color: #FFFF73;
+
+    p {
+      color: #FFFF73;
+    }
+  }
+
+  .color-palette-periskio-4 {
+    background: #E2EAF7;
+    border-color: #4C74A4;
+
+    p {
+      color: #4C74A4;
+    }
+  }
+
+
+  // Restaurant du Palais Royal
+  .color-palette-restaurant-palais-royal-1 {
+    background: #000E05;
+    border-color: #BDC0BE;
+
+    p {
+      color: #BDC0BE;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-2 {
+    background: #002C0F;
+    border-color: #80AB8E;
+
+    p {
+      color: #80AB8E;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-3 {
+    background: #114222;
+    border-color: #90C2A1;
+
+    p {
+      color: #90C2A1;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-4 {
+    background: #415347;
+    border-color: #A7C1B0;
+
+    p {
+      color: #A7C1B0;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-5 {
+    background: #C79F6D;
+    border-color: #FFFFDA;
+
+    p {
+      color: #FFFFDA;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-6 {
+    background: #f5f5f5;
+    border-color: #AFAFAF;
+
+    p {
+      color: #AFAFAF;
+    }
+  }
+
+  .color-palette-restaurant-palais-royal-7 {
+    background: #ffffff;
+    border-color: #AFAFAF;
+
+    p {
+      color: #AFAFAF;
+    }
+  }
+
+  // Konvergo
+  .color-palette-konvergo-1 {
+    background: #1a62c6;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-konvergo-2 {
+    background: #ec0b43;
+    border-color: #FFB9DB;
+
+    p {
+      color: #FFB9DB;
+    }
+  }
+
+  .color-palette-konvergo-3 {
+    background: #f3be22;
+    border-color: #FFFFC7;
+
+    p {
+      color: #FFFFC7;
+    }
+  }
+
+  .color-palette-konvergo-4 {
+    background: #f8f8fa;
+    border-color: #919193;
+
+    p {
+      color: #919193;
+    }
+  }
+
+  .color-palette-konvergo-5 {
+    background: #242930;
+    border-color: #9197A0;
+
+    p {
+      color: #9197A0;
+    }
+  }
+
+  .color-palette-konvergo-6 {
+    background: #3a414e;
+    border-color: #74829C;
+
+    p {
+      color: #74829C;
+    }
+  }
+
+  .color-palette-konvergo-7 {
+    background: #5d6a7f;
+    border-color: #9EB4D8;
+
+    p {
+      color: #9EB4D8;
+    }
+  }
+
+  .color-palette-konvergo-8 {
+    background: #ecf0f6;
+    border-color: #A3B7D3;
+
+    p {
+      color: #A3B7D3;
+    }
+  }
+
+// MDBank
+  .color-palette-mdbank-1 {
+    background: #f08573;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-2 {
+    background: #1aaea6;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-3 {
+    background: #5551fd;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-4 {
+    background: #fcc300;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-5 {
+    background: #171614;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-6 {
+    background: #025893;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-7 {
+    background: #00bded;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-8 {
+    background: #f0f8ff;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+
+  .color-palette-mdbank-9 {
+    background: #ffffff;
+    border-color: #34C4FF;
+
+    p {
+      color: #34C4FF;
+    }
+  }
+}
+
+
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      margin: 10px;
+      max-width: 335px;
+    }
+  }
+}
