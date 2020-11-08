@@ -6,12 +6,18 @@
   padding-top: 150px;
   padding-bottom: 100px;
 
+  .button-primary {
+    margin: 35px 0;
+  }
+
   h2 {
     color: $color-1;
   }
 
   // One case study
   .case-study {
+    margin-bottom: 100px;
+
     .case-study-title {
       margin: 70px 0;
 
@@ -26,34 +32,49 @@
       }
     }
 
+    .img-container {
+      box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.10);
+    }
+
     img {
       height: 375px;
       object-fit: cover;
       position: relative;
       border-radius: 3px;
+      margin-bottom: -10px;
     }
   }
-}
 
-// Small viewport 640px
-@media screen and (min-width: $vw-small) {
-  .case-studies {
-    .button-primary {
-      margin: 100px 0;
+
+  // Small viewport 640px
+  @media screen and (min-width: $vw-small) {
+    .case-studies {
+      .button-primary {
+        margin: 100px 0;
+      }
     }
   }
-}
 
-// Tablet viewport 820px
-@media screen and (min-width: $vw-large) {
-  .case-study {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  // Tablet viewport 820px
+  @media screen and (min-width: $vw-large) {
+    .case-study {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-    img {
-      max-width: 600px;
-      height: 80vh !important;
+      img {
+        max-width: 600px;
+        height: 80vh !important;
+      }
+    }
+
+    .case-study-2 {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    .case-study-title {
+      width: 440px;
     }
   }
 }

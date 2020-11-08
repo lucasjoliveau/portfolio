@@ -1,21 +1,23 @@
 .skills {
   margin-top: 100px;
+
   p {
     max-width: 665px;
   }
 }
 
 .skills-big-title {
-  font-size: rem(158);
   font-weight: $fw-bold;
   margin: 0;
   white-space: nowrap;
   margin-left: -20vw;
   transition: background, color 1s;
   color: $color-5;
+  font-size: rem(40);
 }
 
 .main-skills {
+  padding: 40px;
   p.is-inview {
     background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
     -webkit-animation: AnimationName 14s ease infinite;
@@ -102,33 +104,13 @@
   }
 }
 
-//.skills-1 {
-//  background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
-//  -webkit-animation: AnimationName 14s ease infinite;
-//  -moz-animation: AnimationName 14s ease infinite;
-//  -o-animation: AnimationName 14s ease infinite;
-//  animation: AnimationName 14s ease infinite;
-//  background-size: 800% 800%;
-//  -webkit-background-clip: text;
-//}
-//
-//.skills-2 {
-//  background: linear-gradient(-90deg, #a85050, #e5e7ef, #e5e7ef);
-//  -webkit-animation: AnimationName 14s ease infinite;
-//  -moz-animation: AnimationName 14s ease infinite;
-//  -o-animation: AnimationName 14s ease infinite;
-//  animation: AnimationName 14s ease infinite;
-//  background-size: 800% 800%;
-//  -webkit-background-clip: text;
-//}
-//
-//.skills-3 {
-//  background: linear-gradient(90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
-//  -webkit-animation: AnimationName 14s ease infinite;
-//  -moz-animation: AnimationName 14s ease infinite;
-//  -o-animation: AnimationName 14s ease infinite;
-//  animation: AnimationName 14s ease infinite;
-//  background-size: 800% 800%;
-//  -webkit-background-clip: text;
-//}
+// Tablet viewport 820px
+@media screen and (min-width: $vw-medium) {
+  .skills-big-title {
+    font-size: rem(158);
+  }
 
+  .main-skills {
+    padding: unset;
+  }
+}

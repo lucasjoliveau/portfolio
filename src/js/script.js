@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     (function () {
         var scroll = new LocomotiveScroll({
             el: document.querySelector("[data-scroll-container]"),
-            smooth: true,
-            smoothMobile: false,
+            smooth: off,
+            smoothMobile: off,
             // direction:"horizontal",
             // inertia:1,
             // repeat:true,
