@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             // direction:"horizontal",
             // inertia:1,
             // repeat:true,
-            offset: [0, 0]
+            offset: ["45%", -100]
         });
     })();
 });
