@@ -32,6 +32,10 @@
   background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/mdbank/case-study-mdbank-hero.jpg") center no-repeat;
 }
 
+.case-hero-recettes-en-pot {
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/recettes-en-pot/case-study-hero-recettes-en-pot.png") center no-repeat;
+}
+
 // Small viewport 640px
 @media screen and (min-width: $vw-small) {
   .case-hero-title {
