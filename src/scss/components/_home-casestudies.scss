@@ -32,12 +32,8 @@
       }
     }
 
-    .img-container.is-inview {
-      transition: $global-transition;
-      box-shadow: 0 0 19px rgba(0, 0, 0, 0.10);
-    }
-
     img {
+      box-shadow: 0 0 19px rgba(0, 0, 0, 0.10);
       height: 375px;
       object-fit: cover;
       position: relative;
