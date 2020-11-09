@@ -73,4 +73,15 @@
       max-width: 600px;
     }
   }
+
+  .case-text-3 {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+      div {
+        max-width: 600px;
+      }
+    }
+  }
 }

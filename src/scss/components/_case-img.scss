@@ -69,6 +69,19 @@
   }
 }
 
+.case-img-9 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+
+  img {
+    width: initial;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
+
 .konvergo-userflow {
   margin: 80px auto;
 }
@@ -81,6 +94,18 @@
   height: 500px;
   background-position: center;
   background-size: cover;
+}
+
+.img-layout-pages {
+
+  img {
+    box-shadow: 0 0 19px rgba(0, 0, 0, 0.10);
+    margin: 20px auto;
+  }
+
+  .img-layout-no-shadow {
+    box-shadow: none;
+  }
 }
 
 // Small viewport 640px
@@ -101,6 +126,15 @@
 
     img {
       width: 50%;
+    }
+  }
+}
+
+// 1024px
+@media screen and (min-width: $vw-medium) {
+  .case-img-9 {
+    img {
+      margin: 60px 0;
     }
   }
 }
