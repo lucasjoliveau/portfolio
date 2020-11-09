@@ -127,6 +127,7 @@
       color: #34C4FF;
     }
   }
+
   .color-palette-konvergo-2 {
     background: #ec0b43;
     border-color: #FFB9DB;
@@ -135,6 +136,7 @@
       color: #FFB9DB;
     }
   }
+
   .color-palette-konvergo-3 {
     background: #f3be22;
     border-color: #FFFFC7;
@@ -143,6 +145,7 @@
       color: #FFFFC7;
     }
   }
+
   .color-palette-konvergo-4 {
     background: #f8f8fa;
     border-color: #919193;
@@ -151,6 +154,7 @@
       color: #919193;
     }
   }
+
   .color-palette-konvergo-5 {
     background: #242930;
     border-color: #9197A0;
@@ -159,6 +163,7 @@
       color: #9197A0;
     }
   }
+
   .color-palette-konvergo-6 {
     background: #3a414e;
     border-color: #74829C;
@@ -167,6 +172,7 @@
       color: #74829C;
     }
   }
+
   .color-palette-konvergo-7 {
     background: #5d6a7f;
     border-color: #9EB4D8;
@@ -175,6 +181,7 @@
       color: #9EB4D8;
     }
   }
+
   .color-palette-konvergo-8 {
     background: #ecf0f6;
     border-color: #A3B7D3;
@@ -184,79 +191,97 @@
     }
   }
 
-// MDBank
+  // MDBank
   .color-palette-mdbank-1 {
     background: #f08573;
-    border-color: #34C4FF;
+    border-color: #f3e2dd;
 
     p {
-      color: #34C4FF;
+      color: #f3e2dd;
     }
   }
+
   .color-palette-mdbank-2 {
     background: #1aaea6;
-    border-color: #34C4FF;
+    border-color: #8eece7;
 
     p {
-      color: #34C4FF;
+      color: #8eece7;
     }
   }
+
   .color-palette-mdbank-3 {
     background: #5551fd;
-    border-color: #34C4FF;
+    border-color: #b8b6ff;
 
     p {
-      color: #34C4FF;
+      color: #b8b6ff;
     }
   }
+
   .color-palette-mdbank-4 {
     background: #fcc300;
-    border-color: #34C4FF;
+    border-color: #fffcf7;
 
     p {
-      color: #34C4FF;
+      color: #fffcf7;
     }
   }
+
   .color-palette-mdbank-5 {
     background: #171614;
-    border-color: #34C4FF;
+    border-color: #706e6a;
 
     p {
-      color: #34C4FF;
+      color: #706e6a;
     }
   }
+
   .color-palette-mdbank-6 {
     background: #025893;
-    border-color: #34C4FF;
+    border-color: #8eaabf;
 
     p {
-      color: #34C4FF;
+      color: #8eaabf;
     }
   }
+
   .color-palette-mdbank-7 {
     background: #00bded;
-    border-color: #34C4FF;
+    border-color: #afe7f5;
 
     p {
-      color: #34C4FF;
+      color: #afe7f5;
     }
   }
+
   .color-palette-mdbank-8 {
     background: #f0f8ff;
-    border-color: #34C4FF;
+    border-color: #a1a7ac;
 
     p {
-      color: #34C4FF;
+      color: #a1a7ac;
     }
   }
+
   .color-palette-mdbank-9 {
     background: #ffffff;
-    border-color: #34C4FF;
+    border-color: #a5a5a5;
 
     p {
-      color: #34C4FF;
+      color: #a5a5a5;
     }
   }
+
+  .color-palette-mdbank-10 {
+    background: #fbfbfb;
+    border-color: #9f9f9f;
+
+    p {
+      color: #9f9f9f;
+    }
+  }
+}
 
   // Recettes en pot
   .color-palette-recettes-en-pot-1 {
@@ -339,7 +364,6 @@
       color: #c4c4c4;
     }
   }
-}
 
 
 // Small viewport 640px

@@ -6,7 +6,8 @@
   display: flex;
 
   img {
-    max-width: 800px;
+    width: unset;
+    max-width: 100%;
   }
 }
 
@@ -135,6 +136,12 @@
   .case-img-9 {
     img {
       margin: 60px 0;
+    }
+  }
+
+  .case-img-1 {
+    img {
+      max-width: 800px;
     }
   }
 }
