@@ -1,0 +1,32 @@
+header {
+  background: #fff;
+  position: fixed;
+  z-index: 20;
+  left: 0;
+  right: 0;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+
+    li {
+      a {
+        color: $color-1 !important;
+        font-weight: $fw-semibold;
+      }
+    }
+  }
+}

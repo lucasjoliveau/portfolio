@@ -3,7 +3,7 @@
   background: url('../images/bg-shape-4.svg');
   background-repeat: no-repeat;
   background-position: top left;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
 
   .button-primary {
@@ -17,6 +17,10 @@
   // One case study
   .case-study {
     margin-bottom: 100px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     .case-study-title {
       margin: 70px 0;
