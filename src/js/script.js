@@ -21,10 +21,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
     $(document).on("click", ".nav-toggle", function () {
         t1.reversed(!t1.reversed());
         document.querySelector('.nav-toggle').classList.toggle('nav-toggle-active');
+        document.querySelector('body').classList.toggle('overflow-menu');
     });
 
     $(document).on("click", ".nav-item a", function () {
         t1.reversed(!t1.reversed());
         document.querySelector('.nav-toggle').classList.remove('nav-toggle-active');
+        document.querySelector('body').classList.remove('overflow-menu');
     });
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbarid").style.top = "0";
+        } else {
+            document.getElementById("navbarid").style.top = "-100px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+
+    console.log(prevScrollpos);
 });

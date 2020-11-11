@@ -1,3 +1,14 @@
+.overflow-menu {
+  overflow: hidden;
+}
+
+#navbarid {
+  position: fixed;
+  z-index: 300;
+  display: block;
+  transition: 1.3s .1s cubic-bezier(0.5, 0, 0.31, 1);
+}
+
 .navbar {
   top: 0px;
   display: flex;
@@ -12,6 +23,7 @@
   border-bottom: 1px solid rgba(74, 91, 109, 0.3);
 
   .wrapper, .wrap {
+    margin-top: 7px;
     width: 100%;
     display: flex;
     justify-content: space-between;
