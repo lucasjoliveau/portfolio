@@ -20,3 +20,6 @@ img {
   font-weight: $fw-semibold;
 }
 
+::selection {
+  background: rgba(168, 116, 80, 0.5);
+}
