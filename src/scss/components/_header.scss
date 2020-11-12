@@ -115,7 +115,13 @@
   color: $color-2;
 
   &:hover {
-    color: $color-accent;
+    color: $color-6;
+  }
+}
+
+.nav-item-active a {
+  &::before {
+    content: '-';
   }
 }
 

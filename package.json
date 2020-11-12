@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "locomotive-scroll": "^3.6.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "scroll-restoration-polyfill": "^0.6.1"
   }
 }

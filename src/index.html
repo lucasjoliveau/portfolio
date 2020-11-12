@@ -20,10 +20,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/pace.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <script src="js/aos.js"></script>
     <script defer src="js/script.js"></script>
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Z84MLQ511"></script>
     <script>
@@ -70,6 +75,10 @@
         </div>
     </nav>
 </header>
+<div id="preloader">
+        <img class="logo-preloader" src="images/logo.svg" alt="Logo Lucas Joliveau">
+</div>
+
 <!--HERO SECTION-->
 <section class="hero">
     <div class="wrapper wrap">
@@ -154,7 +163,7 @@
                 </div>
             </div>
 
-            <img src="images/case-studies/konvergo/case-study-konvergo-hero.jpg"
+            <img data-aos="fade-up" data-aos-delay="350" src="images/case-studies/konvergo/case-study-konvergo-hero.jpg"
                  alt="Aperçu de l'étude de cas de Konvergo">
         </div>
         <div class="case-study case-study-2">
@@ -268,9 +277,9 @@
             </div>
         </div>
 
-<!--        <iframe width="960" height="540" src="https://www.youtube.com/embed/ORNZKKXEkTQ" frameborder="0"-->
-<!--                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
-<!--                allowfullscreen></iframe>-->
+        <!--        <iframe width="960" height="540" src="https://www.youtube.com/embed/ORNZKKXEkTQ" frameborder="0"-->
+        <!--                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
+        <!--                allowfullscreen></iframe>-->
 
         <div class="button-group">
             <div data-aos="fade-up" class="button button-primary"><a href="pdf/lucas-joliveau.pdf"
@@ -431,5 +440,6 @@
         </ul>
     </div>
 </footer>
+</main>
 </body>
 </html>
