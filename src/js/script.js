@@ -30,28 +30,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         document.querySelector('body').classList.remove('overflow-menu');
     });
 
-    // Hide navigation menu when mouse scroll
-    var prevScrollpos = window.pageYOffset;
-
-    // When scroll is detected
-    window.onscroll = function () {
-        // Get current scroll Y axis position
-        var currentScrollPos = window.pageYOffset;
-
-        // If the previous scroll position is higher than the current
-        if (prevScrollpos > currentScrollPos) {
-            // Show the navigation bar, so the top position is 0
-            document.getElementById("navbarid").style.top = "0";
-
-            // Hide the navigation bar, so the top position is minus 100
-        } else {
-            document.getElementById("navbarid").style.top = "-100px";
-        }
-        prevScrollpos = currentScrollPos;
-    }
-
-
-
 
     paceOptions = {
         ajax: true,
