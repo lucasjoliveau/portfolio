@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Joliveau | Étude de cas Periskio</title>
+    <title>Lucas Joliveau | Periskio, identité visuelle, développement web</title>
     <meta name="author" content="Lucas Joliveau">
     <meta name="description"
           content="En recherche de stage en design d'interfaces et/ou en développement front-end en région de Montréal. Consultez mon portfolio dès maintenant.">
@@ -11,15 +11,17 @@
           content="designer, graphiste, longueuil, design, logo, création, visuel, site, web, programmation, développement, portfolio, stagiaire, hiver, rive-sud, montréal, canada, 2021">
     <meta name="og:locale" content="fr_CA">
     <meta name="og:type" content="website">
-    <meta name="og:title" content="Lucas Joliveau | Étude de cas Periskio">
+    <meta name="og:title" content="Lucas Joliveau | Periskio, identité visuelle, développement web">
     <meta name="og:description"
           content="En recherche de stage en design d'interfaces et/ou en développement front-end en région de Montréal. Consultez mon portfolio dès maintenant.">
     <meta name="og:url" content="https://lucasjoliveau.com">
-    <meta name="og:site_name" content="Lucas Joliveau | Designer UX/UI & développeur front-end">
+    <meta name="og:site_name" content="Lucas Joliveau | Periskio, identité visuelle, développement web">
     <link rel="stylesheet" href="../css/aos.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <script src="../js/aos.js"></script>
     <script defer src="../js/script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,14 +40,35 @@
 </head>
 <body>
 <header>
-    <div class="wrapper wrap">
-        <a href="../index.html"><img src="images/logo.svg" alt="Logo Lucas Joliveau"></a>
-        <ul>
-            <li><a href="../index.html#case-studies">Études de cas</a></li>
-            <li><a href="../index.html#about">À propos</a></li>
-            <li><a href="../index.html#contact">Contact</a></li>
-        </ul>
-    </div>
+    <nav>
+        <div class="navbar" id="navbarid">
+            <div class="wrapper wrap">
+                <a class="nav-logo" href="../index.html">Lucas Joliveau</a>
+                <div class="nav-toggle">
+                    <span class="nav-line nav-line-top"></span>
+                    <span class="nav-line nav-line-bottom"></span>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrap">
+            <div class="nav">
+                <div class="nav-items wrapper wrap">
+                    <div class="nav-item">
+                        <a href="../index.html#case-studies">Études de cas</a>
+                        <div class="nav-item-wrapper"></div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../index.html#about">À propos</a>
+                        <div class="nav-item-wrapper"></div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../index.html#contact">Contact</a>
+                        <div class="nav-item-wrapper"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </header>
 <!--HERO OF THE CASE-->
 <section data-aos="fade" data-aos-delay="1000" class="case-hero case-hero-periskio">
@@ -70,7 +93,14 @@
                 fiscales et marketing concernant les
                 organisations et leurs dirigeants ou actionnaires qui aident les dirigeants dans leurs affaires et
                 leur prise de décision, à partir de plusieurs centaines de sources d'informations.</p>
-            <p data-aos="fade-up" data-aos-delay="300">Ce projet a été réalisé à la fin de l'année 2019.</p>
+            <p data-aos="fade-up" data-aos-delay="300">Ce projet a été réalisé à la fin de l'année 2019 avec les
+                logiciels <a class="link link-accent" href="https://www.adobe.com/ca_fr/products/illustrator.html"
+                             rel="noopener noreferrer"
+                             target="_blank">Adobe Illustrator</a> et <a
+                        class="link link-accent" href="https://figma.com" rel="noopener noreferrer"
+                        target="_blank">Figma</a> ainsi que la bibliothèque JavaScript <a
+                        class="link link-accent" href="https://reactjs.org" rel="noopener noreferrer"
+                        target="_blank">ReactJS</a>.</p>
         </div>
     </div>
 </div>
@@ -280,11 +310,11 @@
 
 
 <!--NEXT CASE STUDY-->
-<section data-aos="fade-up" class="next-case next-case-restaurant-palais-royal">
+<section data-aos="fade-up" class="next-case next-case-mdbank">
     <div class="wrapper wrap">
-        <p data-aos="fade-up" data-aos-delay="200" class="subtitle">Design et développement web</p>
-        <h2 data-aos="fade-up" data-aos-delay="300">Restaurant du Palais Royal</h2>
-        <a data-aos="fade-up" data-aos-delay="400" class="link link-white" href="restaurant-palais-royal.html">Découvrir
+        <p data-aos="fade-up" data-aos-delay="200" class="subtitle">Identité visuelle, design UX/UI</p>
+        <h2 data-aos="fade-up" data-aos-delay="300">MDBank</h2>
+        <a data-aos="fade-up" data-aos-delay="400" class="link link-white" href="mdbank.html">Découvrir
             la prochaine étude de cas</a>
     </div>
 </section>
