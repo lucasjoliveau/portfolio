@@ -1,4 +1,6 @@
 .case-hero {
+  background-size: cover !important;
+
   .wrapper {
     height: 98vh;
     display: flex;
@@ -16,25 +18,151 @@
   }
 }
 
-.case-hero-periskio {
-  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/periskio/case-study-periskio-hero.jpg") center no-repeat;
-}
-
-.case-hero-restaurant-palais-royal {
-  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero.jpg") center no-repeat;
-}
-
-.case-hero-konvergo {
-  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/konvergo/case-study-konvergo-hero.jpg") center no-repeat;
-}
-
+// MDBank responsive background image
 .case-hero-mdbank {
-  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/mdbank/case-study-mdbank-hero.jpg") center no-repeat;
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/mdbank/case-study-mdbank-hero-bg,w_640.webp") center no-repeat;
 }
 
-.case-hero-recettes-en-pot {
-  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/recettes-en-pot/case-study-hero-recettes-en-pot.png") center no-repeat;
+@media (min-width: 1058px) {
+  .case-hero-mdbank {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/mdbank/case-study-mdbank-hero-bg,w_1058.webp") center no-repeat;
+  }
 }
+
+@media (min-width: 1378px) {
+  .case-hero-mdbank {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/mdbank/case-study-mdbank-hero-bg,w_1378.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1720px) {
+  .case-hero-mdbank {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/mdbank/case-study-mdbank-hero-bg,w_1720.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1920px) {
+  .case-hero-mdbank {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/mdbank/case-study-mdbank-hero-bg,w_1920.webp") center no-repeat;
+  }
+}
+
+// Periskio responsive background image
+.case-hero-periskio {
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/periskio/case-study-periskio-hero-bg,w_640.webp") center no-repeat;
+}
+
+@media (min-width: 1058px) {
+  .case-hero-periskio {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/periskio/case-study-periskio-hero-bg,w_1058.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1378px) {
+  .case-hero-periskio {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/periskio/case-study-periskio-hero-bg,w_1378.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1720px) {
+  .case-hero-periskio {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/periskio/case-study-periskio-hero-bg,w_1720.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1920px) {
+  .case-hero-periskio {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/periskio/case-study-periskio-hero-bg,w_1920.webp") center no-repeat;
+  }
+}
+
+// Konvergo responsive background image
+.case-hero-konvergo {
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/konvergo/case-study-konvergo-hero-bg,w_640.webp") center no-repeat;
+}
+
+@media (min-width: 1058px) {
+  .case-hero-konvergo {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/konvergo/case-study-konvergo-hero-bg,w_1058.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1378px) {
+  .case-hero-konvergo {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/konvergo/case-study-konvergo-hero-bg,w_1378.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1720px) {
+  .case-hero-konvergo {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/konvergo/case-study-konvergo-hero-bg,w_1720.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1920px) {
+  .case-hero-konvergo {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/konvergo/case-study-konvergo-hero-bg,w_1920.webp") center no-repeat;
+  }
+}
+
+// Restaurant du Palais Royal responsive background image
+.case-hero-restaurant-palais-royal {
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero-bg,w_640.webp") center no-repeat;
+}
+
+@media (min-width: 1058px) {
+  .case-hero-restaurant-palais-royal {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero-bg,w_1058.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1378px) {
+  .case-hero-restaurant-palais-royal {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero-bg,w_1378.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1720px) {
+  .case-hero-restaurant-palais-royal {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero-bg,w_1720.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1920px) {
+  .case-hero-restaurant-palais-royal {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/restaurant-palais-royal/case-study-restaurant-palais-royal-hero-bg,w_1920.webp") center no-repeat;
+  }
+}
+
+// Recettes en pot responsive background image
+.case-hero-recettes-en-pot {
+  background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-hero-bg,w_640.webp") center no-repeat;
+}
+
+@media (min-width: 1058px) {
+  .case-hero-recettes-en-pot {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-hero-bg,w_1058.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1378px) {
+  .case-hero-recettes-en-pot {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-hero-bg,w_1378.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1720px) {
+  .case-hero-recettes-en-pot {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-hero-bg,w_1720.webp") center no-repeat;
+  }
+}
+
+@media (min-width: 1920px) {
+  .case-hero-recettes-en-pot {
+    background: linear-gradient(360deg, #F7F7FB 20%, rgba(247, 247, 251, 0) 100%), url("../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-hero-bg,w_1920.webp") center no-repeat;
+  }
+}
+
 
 // Small viewport 640px
 @media screen and (min-width: $vw-small) {
