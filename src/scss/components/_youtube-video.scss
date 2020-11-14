@@ -1,0 +1,22 @@
+.modale-ytb-hidden {
+  display: none !important;
+}
+
+#modale-ytb {
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh;
+  background: rgba(8, 20, 32, 0.95);
+
+  iframe {
+    border-radius: 3px;
+    display: flex;
+    margin: auto;
+  }
+}

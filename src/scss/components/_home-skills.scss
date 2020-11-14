@@ -1,51 +1,32 @@
 .skills {
+  max-width: 670px;
   margin-top: 100px;
-
-  p {
-    max-width: 665px;
-  }
-}
-
-.skills-big-title {
-  font-weight: $fw-bold;
-  margin: 0;
-  white-space: nowrap;
-  margin-left: -20vw;
-  transition: background, color 1s;
-  color: $color-5;
-  font-size: rem(40);
 }
 
 .main-skills {
   padding: 40px;
-  p.is-inview {
-    background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
-    -webkit-animation: AnimationName 14s ease infinite;
-    -moz-animation: AnimationName 14s ease infinite;
-    -o-animation: AnimationName 14s ease infinite;
-    animation: AnimationName 14s ease infinite;
-    background-size: 800% 800%;
-    -webkit-background-clip: text;
-    transition: background, color 1s;
-    color: transparent;
-  }
-}
-
-
-.main-skills {
   margin-top: 80px;
   background: $color-7;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-}
 
-#direction {
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
+  .skills-big-title {
+    font-weight: $fw-bold;
+    text-align: center;
+    margin: 0 auto;
+    font-size: rem(28);
+    background: linear-gradient(-90deg, #e5e7ef, #a85050, #a87450, #e5e7ef);
+    -webkit-animation: AnimationFade 14s ease infinite;
+    -moz-animation: AnimationFade 14s ease infinite;
+    -o-animation: AnimationFade 14s ease infinite;
+    animation: AnimationFade 14s ease infinite;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    transition: background, color 1s;
+    color: transparent;
+  }
 }
 
 .u-title-right {
@@ -56,7 +37,7 @@
   white-space: nowrap;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes AnimationFade {
   0% {
     background-position: 0% 50%
   }
@@ -68,7 +49,7 @@
   }
 }
 
-@-moz-keyframes AnimationName {
+@-moz-keyframes AnimationFade {
   0% {
     background-position: 0% 50%
   }
@@ -80,7 +61,7 @@
   }
 }
 
-@-o-keyframes AnimationName {
+@-o-keyframes AnimationFade {
   0% {
     background-position: 0% 50%
   }
@@ -92,7 +73,7 @@
   }
 }
 
-@keyframes AnimationName {
+@keyframes AnimationFade {
   0% {
     background-position: 0% 50%
   }
@@ -103,14 +84,26 @@
     background-position: 0% 50%
   }
 }
+
 
 // Tablet viewport 820px
 @media screen and (min-width: $vw-medium) {
   .skills-big-title {
-    font-size: rem(158);
+    font-size: rem(68) !important;
   }
+}
 
-  .main-skills {
-    padding: unset;
+// Large viewport 1024px
+@media screen and (min-width: $vw-large) {
+  .skills-big-title {
+    font-size: rem(95) !important;
+  }
+}
+
+
+// Huge viewport 1240px
+@media screen and (min-width: $vw-huge) {
+  .skills-big-title {
+    font-size: rem(120) !important;
   }
 }

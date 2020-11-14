@@ -1,5 +1,9 @@
 $global-transition: all 300ms ease-in-out;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .small-text {
   font-size: 0.75rem;
 }
@@ -20,3 +24,6 @@ img {
   font-weight: $fw-semibold;
 }
 
+::selection {
+  background: rgba(168, 116, 80, 0.5);
+}

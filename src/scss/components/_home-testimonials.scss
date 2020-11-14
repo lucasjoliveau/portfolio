@@ -2,9 +2,13 @@
   background: url('../images/bg-shape-1.svg'), $color-1;
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: cover;
+  background-size: contain;
   padding-top: 100px;
   padding-bottom: 100px;
+
+  .testimonial {
+    text-align: left;
+  }
 
   div {
     max-width: 870px;
@@ -12,6 +16,7 @@
 
   .testimonials-text {
     margin-bottom: 50px;
+    text-align: center;
 
     p {
       color: $color-6;
@@ -24,11 +29,11 @@
   }
 }
 
-
-.testimonials {
-  background-size: inherit;
-
-  .testimonials-text {
-    text-align: center;
+// Small viewport 640px
+@media screen and (min-width: $vw-small) {
+  .testimonials {
+    .testimonial {
+      text-align: center;
+    }
   }
 }

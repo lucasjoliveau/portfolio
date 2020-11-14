@@ -3,39 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Joliveau | Étude de cas Recettes en pot</title>
+    <title>Lucas Joliveau | Recettes en pot, design UX/UI</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#07111b">
+    <meta name="apple-mobile-web-app-title" content="Lucas Joliveau">
+    <meta name="application-name" content="Lucas Joliveau">
+    <meta name="msapplication-TileColor" content="#081420">
+    <meta name="theme-color" content="#081420">
+    <meta name="author" content="Lucas Joliveau">
+    <meta name="description"
+          content="En recherche de stage en design UX/UI et en développement front-end en région de Montréal. Consultez mon portfolio dès maintenant.">
+    <meta name="keywords"
+          content="designer, longueuil, design, développement web, portfolio, stagiaire, hiver, montréal, canada, 2021">
+    <meta name="og:locale" content="fr_CA">
+    <meta name="og:type" content="website">
+    <meta name="og:title" content="Lucas Joliveau | Recettes en pot, design UX/UI">
+    <meta name="og:description"
+          content="En recherche de stage en design UX/UI et en développement front-end en région de Montréal. Consultez mon portfolio dès maintenant.">
+    <meta name="og:url" content="https://lucasjoliveau.com">
+    <meta name="og:site_name" content="Lucas Joliveau | Recettes en pot, design UX/UI">
+    <link rel="stylesheet" href="../css/aos.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/pace.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="../js/aos.js"></script>
     <script defer src="../js/script.js"></script>
+    <script defer src="../js/jquery.js"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Z84MLQ511"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-0Z84MLQ511');
+    </script>
 </head>
 <body>
-    <section class="case-hero case-hero-recettes-en-pot">
+<header>
+    <nav>
+        <div class="navbar">
+            <div class="wrapper wrap">
+                <a class="nav-logo" href="../index.html">Lucas Joliveau</a>
+                <div class="nav-toggle">
+                    <span class="nav-line nav-line-top"></span>
+                    <span class="nav-line nav-line-bottom"></span>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrap">
+            <div class="nav">
+                <div class="nav-items wrapper wrap">
+                    <div class="nav-item">
+                        <a href="../index.html#case-studies">Études de cas</a>
+                        <div class="nav-item-wrapper"></div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../index.html#case-studies#about">À propos</a>
+                        <div class="nav-item-wrapper"></div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../index.html#case-studies#contact">Contact</a>
+                        <div class="nav-item-wrapper"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="preloader">
+    <img class="logo-preloader" src="../images/logo.svg" alt="Logo Lucas Joliveau">
+</div>
+<body>
+    <section data-aos="fade" data-aos-delay="1000" class="case-hero case-hero-recettes-en-pot">
         <div class="wrapper wrap">
             <div class="case-hero-title">
                 <div>
-                    <p class="subtitle">Design UX/UI</p>
-                    <h1>Recettes en pot</h1>
+                    <p data-aos="fade-up" data-aos-delay="1100" class="subtitle">Design UX/UI</p>
+                    <h1 data-aos="fade-up" data-aos-delay="1200">Recettes en pot</h1>
                 </div>
                 <p>Étude académique</p>
             </div>
         </div>
     </section>
-
     <!--ABOUT THE CLIENT-->
     <div class="case-text-1 case-dark-bg">
         <div class="wrapper wrap">
-            <p class="bold-text">À propos</p>
-            <hr/>
+            <p data-aos="fade-up" class="bold-text">À propos</p>
+            <hr data-aos="fade" data-aos-delay="100"/>
             <div class="paragraph">
-                <p><a class="link link-accent" href="https://recettesenpot.com" rel="noopener noreferrer"
+                <p data-aos="fade-up" data-aos-delay="200"><a class="link link-accent" href="https://recettesenpot.com" rel="noopener noreferrer"
                       target="_blank">Recettes en pot</a> est une organisation spécialisée dans la philanthropie
                     collective. Fondée par des
                     entrepreneurs sociaux et par une équipe talentueuse, l'entreprise offre des services et des produits
                     qui mettent en place des campagnes de financement dans un cadre le plus socialement responsable que
                     possible.</p>
-                <p>Le cadre de cette étude de cas consistait à revoir l'expérience utilisateur du site web de Recettes
+                <p data-aos="fade-up" data-aos-delay="250">Le cadre de cette étude de cas consistait à revoir l'expérience utilisateur du site web de Recettes
                     en pot et de proposer une refonte d'interfaces pour un format d'ordinateur classique.</p>
+                <p data-aos="fade-up" data-aos-delay="300">Ce projet a été réalisé au début de l'année 2020 avec les logiciels <a
+                        class="link link-accent" href="https://figma.com" rel="noopener noreferrer"
+                        target="_blank">Figma</a> et <a
+                        class="link link-accent" href="https://www.adobe.com/fr/products/photoshop-lightroom-classic.html" rel="noopener noreferrer"
+                        target="_blank">Adobe Photoshop Lightroom Classic</a>.</p>
             </div>
         </div>
     </div>
@@ -44,25 +126,25 @@
     <div class="case-text-3">
         <div class="wrapper wrap">
             <div>
-                <p class="bold-text">Les problèmes</p>
+                <p data-aos="fade-up" class="bold-text">Les problèmes</p>
                 <ul>
-                    <li>Manque de clarté dans la présentation de l'entreprise</li>
-                    <li>Coexistence d'un catalogue de produit non transactionel et d'une boutique en ligne</li>
-                    <li>Navigation complexe qui manque de fludité et qui porte à confusion</li>
-                    <li>Manque d'homogénéité dans les interfaces et de la direction artistique</li>
-                    <li>Confusion des objectifs du site web ce qui rend complexe le chemin vers les actions à
+                    <li data-aos="fade-up" >Manque de clarté dans la présentation de l'entreprise</li>
+                    <li data-aos="fade-up" data-aos-delay="50">Coexistence d'un catalogue de produit non transactionnel et d'une boutique en ligne</li>
+                    <li data-aos="fade-up" data-aos-delay="100">Navigation complexe qui manque de fluidité et qui porte à confusion</li>
+                    <li data-aos="fade-up" data-aos-delay="150">Manque d'homogénéité dans les interfaces et de la direction artistique</li>
+                    <li data-aos="fade-up" data-aos-delay="200">Confusion des objectifs du site web ce qui rend complexe le chemin vers les actions à
                         accomplir
                     </li>
                 </ul>
             </div>
             <div>
-                <p class="bold-text">Les objectifs</p>
+                <p data-aos="fade-up" class="bold-text">Les objectifs</p>
                 <ul>
-                    <li>Revoir la présentation des contenus de l'entreprise pour être adapté aux valeurs de Recettes en
+                    <li data-aos="fade-up" data-aos-delay="50">Revoir la présentation des contenus de l'entreprise pour être adapté aux valeurs de Recettes en
                         pot
                     </li>
-                    <li>Revoir le design d'interfaces pour projeter un meilleur esthétisme et une meilleure clarté</li>
-                    <li>Revoir le design d'expériences pour donner une navigation fluide avec des appels à l'action
+                    <li data-aos="fade-up" data-aos-delay="100">Revoir le design d'interfaces pour projeter un meilleur esthétisme et une meilleure clarté</li>
+                    <li data-aos="fade-up" data-aos-delay="150">Revoir le design d'expériences pour donner une navigation fluide avec des appels à l'action
                         concrets
                     </li>
                 </ul>
@@ -70,54 +152,54 @@
         </div>
     </div>
 
-    <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-userflow.jpg"
+    <img data-aos="fade" class="case-large-img" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-userflow.webp"
          alt="Arborescence du site web de Recettes en pot">
-    <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-wireframes.jpg"
+    <img data-aos="fade" class="case-large-img" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-wireframes.webp"
          alt="Wireframes du site web">
 
     <!--ARTISTIC DIRECTION-->
     <section>
         <div class="wrapper wrap">
             <ul class="color-palette">
-                <li class="color-palette-recettes-en-pot-1">
+                <li data-aos="fade-up" class="color-palette-recettes-en-pot-1">
                     <p>HEX #f4bd7c</p>
-                    <p>RVB 0, 14, 5</p>
+                    <p>RVB 244, 189, 124</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-2">
+                <li data-aos="fade-up" data-aos-delay="50" class="color-palette-recettes-en-pot-2">
                     <p>HEX #b77222</p>
-                    <p>RVB 0, 44, 15</p>
+                    <p>RVB 183, 114, 34</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-3">
+                <li data-aos="fade-up" data-aos-delay="100" class="color-palette-recettes-en-pot-3">
                     <p>HEX #2a4a59</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 42, 74, 89</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-4">
+                <li data-aos="fade-up" data-aos-delay="150" class="color-palette-recettes-en-pot-4">
                     <p>HEX #1f3340</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 31, 51, 64</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-5">
+                <li data-aos="fade-up" data-aos-delay="200" class="color-palette-recettes-en-pot-5">
                     <p>HEX #f5f0eb</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 245, 240, 235</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-6">
+                <li data-aos="fade-up" data-aos-delay="250" class="color-palette-recettes-en-pot-6">
                     <p>HEX #686868</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 104, 104, 104</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-7">
+                <li data-aos="fade-up" data-aos-delay="300" class="color-palette-recettes-en-pot-7">
                     <p>HEX #989898</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 152, 152, 152</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-8">
+                <li data-aos="fade-up" data-aos-delay="350" class="color-palette-recettes-en-pot-8">
                     <p>HEX #b6b6b6</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 182, 182, 182</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-9">
+                <li data-aos="fade-up" data-aos-delay="400" class="color-palette-recettes-en-pot-9">
                     <p>HEX #f9f9f9</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 249, 249, 249</p>
                 </li>
-                <li class="color-palette-recettes-en-pot-10">
+                <li data-aos="fade-up" data-aos-delay="450" class="color-palette-recettes-en-pot-10">
                     <p>HEX #ffffff</p>
-                    <p>RVB 17, 66, 34</p>
+                    <p>RVB 255, 255, 255</p>
                 </li>
             </ul>
         </div>
@@ -137,9 +219,9 @@
     <section>
         <div class="wrapper wrap">
             <div class="case-text-1">
-                <p class="bold-text">Style photographique</p>
+                <p data-aos="fade-up" class="bold-text">Style photographique</p>
                 <div class="paragraph">
-                    <p>Les photos humaines ont étés priorisées pour mettre de l'avant un aspect relationnel. Le style
+                    <p data-aos="fade-up" data-aos-delay="100">Les photos humaines ont étés priorisées pour mettre de l'avant un aspect relationnel. Le style
                         photographique révèle des tons chauds avec des particules blanches qui rappellent la
                         photographie
                         argentique. De plus, celles-ci délivrent une touche artisanale, ce qui correspond complètement
@@ -148,13 +230,13 @@
                 </div>
             </div>
             <div class="case-img-9">
-                <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-1.jpg"
+                <img data-aos="fade-up" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-1.webp"
                      alt="Photographie des locaux de Recettes en pot">
-                <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-2.jpg"
+                <img data-aos="fade-up" data-aos-delay="50" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-2.webp"
                      alt="Photographie de deux personnes de l'épicerie Frenco">
-                <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-3.jpg"
+                <img data-aos="fade-up" data-aos-delay="100" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-3.webp"
                      alt="Photographie de l'entrepôt de Recettes en pot">
-                <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-4.jpg"
+                <img data-aos="fade-up" data-aos-delay="150" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-photography-4.webp"
                      alt="Photographie de quatre muffins">
             </div>
         </div>
@@ -162,34 +244,34 @@
 
     <!--LAYOUT GRID-->
     <section class="case-text-2 wrapper wrap">
-        <p class="bold-text">Grille de mise en page</p>
-        <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-layout-grid.png"
+        <p data-aos="fade-up" class="bold-text">Grille de mise en page</p>
+        <img data-aos="fade" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-layout-grid.png"
              alt="Grille de mise en page de la refonte du site web de Recettes en pot">
     </section>
 
     <!--FINAL RESULT-->
     <section class="case-text-2 wrapper wrap">
-        <p class="bold-text">Résultat final</p>
+        <p data-aos="fade-up" class="bold-text">Résultat final</p>
         <div class="img-layout-pages">
-            <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-homepage.jpg"
+            <img data-aos="fade" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-homepage.jpg"
                  alt="Page d'accueil finale de la refonte de Recettes en pot">
-            <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-organize-campaign.jpg"
+            <img data-aos="fade" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-organize-campaign.jpg"
                  alt="Page d'organisation d'une campagne de la refonte de Recettes en pot">
-            <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-support-campaign.jpg"
+            <img data-aos="fade" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-support-campaign.jpg"
                  alt="Page pour supporter une campagne de la refonte de Recettes en pot">
-            <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-shop-product.png"
+            <img data-aos="fade" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-shop-product.png"
                  alt="Page d'une boutique et d'un produit de la refonte de Recettes en pot" class="img-layout-no-shadow">
-            <img src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-overview.png"
+            <img data-aos="fade" src="../images/case-studies/recettes-en-pot/case-study-recettes-en-pot-overview.png"
                  alt="Vue d'ensemble de la refonte de Recettes en pot" class="img-layout-no-shadow">
         </div>
     </section>
 
     <!--NEXT CASE STUDY-->
-    <section class="next-case next-case-periskio">
+    <section data-aos="fade-up" class="next-case next-case-periskio">
         <div class="wrapper wrap">
-            <p class="subtitle">Identité visuelle, développement web</p>
-            <h2>Periskio</h2>
-            <a class="link link-white" href="periskio.html">Découvrir la prochaine étude de cas</a>
+            <p data-aos="fade-up" data-aos-delay="200" class="subtitle">Identité visuelle, développement web</p>
+            <h2 data-aos="fade-up" data-aos-delay="300">Periskio</h2>
+            <a data-aos="fade-up" data-aos-delay="400" class="link link-white" href="periskio.html">Découvrir la prochaine étude de cas</a>
         </div>
     </section>
 
@@ -197,7 +279,7 @@
     <footer>
         <div class="wrap wrapper">
             <div class="footer-contact">
-                <span class="footer-contact-option"><p>Intéressé par mon profil?</p><a href="#"
+                <span class="footer-contact-option"><p>Intéressé par mon profil?</p><a href="../index.html#contact"
                                                                                        class="link link-accent">Contactez-moi</a></span>
                 <span class="footer-contact-option"><p>Par courriel</p><a
                         class="footer-contact-white link link-white"
@@ -237,3 +319,5 @@
     </footer>
 </body>
 </html>
+
+

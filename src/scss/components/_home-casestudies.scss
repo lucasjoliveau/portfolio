@@ -3,8 +3,7 @@
   background: url('../images/bg-shape-4.svg');
   background-repeat: no-repeat;
   background-position: top left;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 100px;
 
   .button-primary {
     margin: 35px 0;
@@ -17,6 +16,10 @@
   // One case study
   .case-study {
     margin-bottom: 100px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     .case-study-title {
       margin: 70px 0;
@@ -32,12 +35,8 @@
       }
     }
 
-    .img-container.is-inview {
-      transition: $global-transition;
-      box-shadow: 0 0 19px rgba(0, 0, 0, 0.10);
-    }
-
     img {
+      box-shadow: 0 0 19px rgba(0, 0, 0, 0.10);
       height: 375px;
       object-fit: cover;
       position: relative;
