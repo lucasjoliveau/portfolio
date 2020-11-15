@@ -97,3 +97,33 @@
     background: $color-1;
   }
 }
+
+// Alternative button
+.button-alt {
+  background: $color-accent;
+
+  a {
+    color: $color-6;
+  }
+
+  &:active, &:focus {
+    &::before {
+      background: lighten($color-6, 5%);
+    }
+
+    a {
+      color: $color-1;
+    }
+  }
+
+  &:hover {
+    a {
+      color: $color-1;
+    }
+  }
+
+  &::before {
+    background: $color-6;
+    border-radius: 3px;
+  }
+}

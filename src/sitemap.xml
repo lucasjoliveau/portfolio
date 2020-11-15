@@ -1,57 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-  <loc>https://lucasjoliveau.com/index.html</loc>
+  <loc>https://lucasjoliveau.com/</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://lucasjoliveau.com/case-studies/mdbank.html</loc>
+  <loc>https://lucasjoliveau.com/index</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lucasjoliveau.com/case-studies/restaurant-palais-royal.html</loc>
+  <loc>https://lucasjoliveau.com/case-studies/mdbank</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lucasjoliveau.com/case-studies/konvergo.html</loc>
+  <loc>https://lucasjoliveau.com/case-studies/restaurant-palais-royal</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lucasjoliveau.com/case-studies/recettes-en-pot.html</loc>
+  <loc>https://lucasjoliveau.com/case-studies/konvergo</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lucasjoliveau.com/case-studies/periskio.html</loc>
+  <loc>https://lucasjoliveau.com/case-studies/recettes-en-pot</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lucasjoliveau.com/case-studies/periskio</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lucasjoliveau.com/pdf/lucas-joliveau.pdf</loc>
+  <lastmod>2020-11-15T16:45:07+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lucasjoliveau.com/index.html#contact</loc>
+  <loc>https://lucasjoliveau.com/index.php</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://lucasjoliveau.com/tel:514-416-4719</loc>
+  <loc>https://lucasjoliveau.com/case-studies/index</loc>
+  <lastmod>2020-11-15T16:46:18+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://lucasjoliveau.com/../index.html</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/../index.html#case-studies</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/../index.html#about</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/../index.html#contact</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/restaurant-palais-royal.html</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/konvergo.html</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/recettes-en-pot.html</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/periskio.html</loc>
-</url>
-<url>
-  <loc>https://lucasjoliveau.com/mdbank.html</loc>
-</url>
+
+
 </urlset>
