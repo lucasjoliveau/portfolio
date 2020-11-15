@@ -19,3 +19,7 @@ if (isset($_POST['submit'])) {
     mail($mailTo, $txt, $headers);
     header("Location: formtarget?mailsend");
 }
+
+
+echo substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+
