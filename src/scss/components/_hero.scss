@@ -110,3 +110,22 @@ h1, ul {
     }
   }
 }
+
+.hero-global {
+  h1, p {
+    text-align: center;
+  }
+
+  h1 {
+    color: $color-7;
+    max-width: 1000px !important;
+  }
+
+  p {
+    color: $color-6;
+  }
+
+  .button {
+    margin: 70px auto !important;
+  }
+}
