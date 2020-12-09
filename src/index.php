@@ -112,6 +112,10 @@
         <h1 data-aos="fade-up">Je suis <span class="hero-emphase-name">Lucas Joliveau</span>, <span
                     class="hero-emphase-title">designer UX/UI</span>
             et <span class="hero-emphase-title">développeur front-end</span>.</h1>
+        <div data-aos="fade-up" class="button button-primary"><a href="pdf/lucas-joliveau.pdf"
+                                                                 rel="noopener noreferrer"
+                                                                 target="_blank">Consulter
+                mon CV</a></div>
         <ul class="social-medias social-medias-white">
             <li data-aos="fade-up" data-aos-delay="500"><a href="https://www.linkedin.com/in/lucas-joliveau"
                                                            target="_blank"
@@ -327,7 +331,7 @@
                         <div data-aos="fade-up" class="button button-primary"><a href="pdf/lucas-joliveau.pdf"
                                                                                  rel="noopener noreferrer"
                                                                                  target="_blank">Consulter
-                                mon C.V</a></div>
+                                mon CV</a></div>
                         <div data-aos="fade-up" data-aos-delay="100" class="button button-secondary"><a href="#contact">Entrer
                                 en
                                 contact

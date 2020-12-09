@@ -8,6 +8,31 @@
   justify-content: center;
   align-items: center;
 
+  .button {
+    z-index: 10;
+    margin: 45px 0;
+
+    &:hover {
+      a {
+        color: $color-1 !important;
+      }
+    }
+
+    &:active, &:focus {
+      a {
+        color: $color-1 !important;
+      }
+
+      &::before {
+        background: darken($color-5, 5%) !important;
+      }
+    }
+
+    &::before {
+      background: $color-5;
+    }
+  }
+
 h1, ul {
   z-index: 2;
   position: relative;
